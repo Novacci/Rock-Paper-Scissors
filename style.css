@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'antiposto';
+  src: url(AntipastoPro-Medium_trial.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: saddlebrown;
+}
+
+h2 {
+  font-family: 'antiposto';
+}
+h3 {
+  font-family: 'Impact, Haettenschweiler, ' Arial Narrow Bold ', sans-serif';
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+body {
+  background-color: rgb(250, 234, 214);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #d38f8f;
+  border: 4px solid saddlebrown;
+  width: 140px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(23, 23, 27);
+}
+#computerScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border: 5px solid rgb(27, 27, 31);
+  margin-top: 3px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#playerScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border: 5px solid rgb(27, 27, 31);
+  margin-top: 3px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#roundResults {
+  margin: 0 auto;
+  width: 300px;
+  height: 100px;
+  border: 5px solid rgb(27, 27, 31);
+
+  text-align: center;
+
+  font-size: 20px;
+}
+.headers {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.scores {
+  display: flex;
+  justify-content: center;
+}
+
+#resultsHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.restartContainer {
+  text-align: center;
+  padding: 20px;
+}
+#restart {
+  width: 120px;
+  height: 35px;
+  border: 5px solid saddlebrown;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #d38f8f;
+  color: rgb(27, 27, 31);
+}
+#roundResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
