@@ -30,6 +30,8 @@ h3 {
 }
 
 body {
+  margin-top: 3rem;
+
   background-color: rgb(250, 234, 214);
 }
 .buttons {
